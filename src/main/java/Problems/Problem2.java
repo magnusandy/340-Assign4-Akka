@@ -347,7 +347,7 @@ public class Problem2 {
 	//---------------------------MAIN-----------------------------
 	public static void main(String[] args) {
 		//Set up the default values for the simulation
-		int N_COUPLES = 10;
+		int N_COUPLES = 1000;
 		int TIMEOUT_DURATION_SEC = 3;
 		//arrays to hold the references to all the men and women actors
 		ActorRef[] men = new ActorRef[N_COUPLES];
